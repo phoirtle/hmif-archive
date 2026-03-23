@@ -93,12 +93,7 @@ Setup akan otomatis:
 - Menambahkan kolom `foto_profil` jika belum ada
 - Memverifikasi koneksi database
 
-**5. Hapus setup.php**
-```bash
-rm setup.php
-```
-
-**6. Login**
+**5. Login**
 Buka: `http://localhost/hmif-archive/`
 
 ---
