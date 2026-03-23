@@ -1,0 +1,1 @@
+ALTER TABLE users ADD COLUMN IF NOT EXISTS foto_profil VARCHAR(255) NULL AFTER division_id;
