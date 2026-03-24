@@ -66,7 +66,7 @@ $departments = $db->query("SELECT * FROM departments ORDER BY nama")->fetchAll()
                         <option value="dibatalkan" <?= $program['status'] == 'dibatalkan' ? 'selected' : '' ?>>Dibatalkan</option>
                     </select>
                 </div>
-                <div style="display:flex;gap:8px">
+                <div style="display:flex;gap:8px;margin-bottom:2px;">
                     <button type="submit" class="btn btn-primary">Filter</button>
                     <?php if ($search || $dept_id || $status): ?>
                     <a href="<?= APP_URL ?>/programs/index.php" class="btn btn-outline">✕</a>

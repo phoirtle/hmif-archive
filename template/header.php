@@ -100,7 +100,7 @@ $initials = strtoupper(substr($currentUser['nama_lengkap'], 0, 1));
 <div class="main-content">
     <!-- TOPBAR -->
     <header class="topbar">
-        <div style="display: flex; align-items: center; gap: 16px;">
+        <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 25px;">
             <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
             <div>
                 <div class="page-title">

@@ -43,7 +43,7 @@ $roles = ['ketua','waketua','sekum','bendum','kadin','wakadin','kadiv','staf'];
                     <?php foreach ($departments as $d): ?><option value="<?= $d['id'] ?>" <?= $dept_filter==$d['id']?'selected':'' ?>><?= sanitize($d['nama']) ?></option><?php endforeach; ?>
                 </select>
             </div>
-            <div style="display:flex;gap:8px">
+            <div style="display:flex;gap:8px;margin-bottom:2px;">
                 <button type="submit" class="btn btn-primary">Cari</button>
                 <?php if ($search||$role_filter||$dept_filter): ?><a href="<?= APP_URL ?>/users/index.php" class="btn btn-outline">✕</a><?php endif; ?>
             </div>

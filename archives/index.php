@@ -99,7 +99,7 @@ $programs = $db->query("SELECT * FROM programs ORDER BY nama")->fetchAll();
                     </select>
                 </div>
                 <?php endif; ?>
-                <div style="display:flex;gap:8px">
+                <div style="display:flex;gap:8px;margin-bottom:2px;">
                     <button type="submit" class="btn btn-primary">Filter</button>
                     <?php if ($search || $kategori || $dept_id || $div_id): ?>
                     <a href="<?= APP_URL ?>/archives/index.php" class="btn btn-outline">✕ Reset</a>
