@@ -1,7 +1,7 @@
 # 💾 HMIF Archive — Sistem Arsip Digital
 **Himpunan Mahasiswa Informatika (HMIF) Universitas Sriwijaya**
 
-Sistem pengelolaan arsip digital berbasis web dengan desain glassmorphism, dibangun menggunakan PHP native + MySQL.
+Sistem pengelolaan arsip digital ormawa berbasis web dengan desain glassmorphism, dibangun menggunakan PHP native + MySQL.
 
 ---
 
@@ -10,7 +10,7 @@ Sistem pengelolaan arsip digital berbasis web dengan desain glassmorphism, diban
 ### Design System
 - **Glassmorphism** dengan backdrop-filter blur
 - **Color palette HMIF**: Biru Langit `#A8E8F9`, Biru Teal `#00537A`, Biru Navy `#013C58`, Oranye `#F5A201`, Kuning `#FFBA42`, Kuning Pastel `#FFD35B`
-- **Font**: Sora (display/heading) + DM Sans (body)
+- **Font**: Segoe UI
 - **Animasi JS**: card tilt 3D, ripple effect, scroll reveal, floating particles, stat counter
 
 ### Halaman
@@ -18,7 +18,7 @@ Sistem pengelolaan arsip digital berbasis web dengan desain glassmorphism, diban
 |---|---|
 | `login.php` | Login — logo di kiri, form di kanan, animated particles |
 | `dashboard.php` | Ringkasan statistik, arsip terbaru, quick actions |
-| `archives/index.php` | Daftar arsip (grid/list view), filter & search |
+| `archives/index.php` | Daftar arsip, filter & search |
 | `archives/upload.php` | Upload arsip baru dengan drag & drop |
 | `archives/edit.php` | Edit arsip |
 | `archives/download.php` | Download file dengan update counter |
@@ -93,19 +93,14 @@ Setup akan otomatis:
 - Menambahkan kolom `foto_profil` jika belum ada
 - Memverifikasi koneksi database
 
-**5. Hapus setup.php**
-```bash
-rm setup.php
-```
-
-**6. Login**
+**5. Login**
 Buka: `http://localhost/hmif-archive/`
 
 ---
 
 ## 👤 Akun Default
 
-Semua akun menggunakan password: **`pusatsemesta`**
+Semua akun menggunakan password: **`password`**
 
 | Email | Role | Akses |
 |---|---|---|
@@ -221,10 +216,3 @@ Arsip yang bersifat umum dan tidak terkait proker tertentu. Contoh: surat masuk/
 - **Toast Notification** — notifikasi pop-up di pojok kanan bawah
 - **Animated Stars** — bintang berkedip di background
 - **Glassmorphism Hover** — card terangkat saat di-hover
-
----
-
-## 📞 Kontak & Kredit
-
-**HMIF UNSRI** — Himpunan Mahasiswa Informatika, Universitas Sriwijaya  
-Sistem ini dibangun untuk kebutuhan pengelolaan arsip internal organisasi.
